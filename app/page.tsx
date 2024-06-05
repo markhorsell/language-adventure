@@ -1,10 +1,12 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <main className="bg-slate-800 text-slate-200 flex min-h-screen flex-col items-center ">
 
       <h1 className="text-3xl">Language Adventure</h1>
+      <Link href="/notes">TODOS</Link>
 
 
       <p>Welcome back user</p>

@@ -8,16 +8,17 @@ export default function Notes() {
       
       </div>
       <ul>
-        <li className="font-extrabold">THIS IS PLAYER ONLY</li>
+        <li className="font-extrabold">THIS APP IS PLAYER ONLY</li>
         <li>This is the url a user would open</li>
-        <li>There is no editing functionality here. That will be another project</li>
+        <li>There is no editing functionality here. That will be another project. Probably doesnt need hosting.</li>
         <li>TODO</li>
+        
         <li>Add shadcn</li>
         <li>Add react query</li>
-        <li>Add Auth? next auth? auth0 or clerk?</li>
+        <li className="text-decoration-line: line-through">Add Auth? next auth? auth0 or clerk?</li>
         <li>Load game file from mongoDB</li>
         <li>Open a channel so games local storage can be manipulated by editor</li>
-        <li>Add a stripe account</li>
+        <li className="text-decoration-line: line-through">Add a stripe account</li>
         <li>For now all content is free, but in future users with stripe subscriptions can access higher level games</li>
         
       </ul>
