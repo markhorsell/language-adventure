@@ -2,24 +2,60 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-       <h1>Language Adventure</h1>
-      
-      </div>
+    <main className="bg-slate-800 text-slate-200 flex min-h-screen flex-col items-center ">
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <h1 className="text-3xl">Language Adventure</h1>
 
+
+      <p>Welcome back user</p>
+      <p>Or please login / register modal</p>
+      <p>Once logged in show list of available games</p>
+      <p>Whats been completed</p>
+      <h2>SIMPLE GAME 1</h2>
+      <button>Play</button>
+      <table className="table-fixed border-separate border-spacing-2 w-full max-w-screen-lg">
+        <thead>
+          <tr>
+     
+            <th className="text-start">Descriptions</th>
+            <th className="text-start">Commands</th>
+            <th className="text-start">Inventory</th>
+            <th className="text-start">Completed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>English</td><td>English</td><td>English</td><td>Yes</td>
+          </tr>
+          <tr>
+           <td>English</td><td>English</td><td>Spanish</td><td>No</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>SIMPLE GAME 1</h2>
+      <button>Play</button>
+      <table className="table-fixed border-separate border-spacing-2 w-full max-w-screen-lg">
+        <thead>
+          <tr>
       
+            <th className="text-start">Descriptions</th>
+            <th className="text-start">Commands</th>
+            <th className="text-start">Inventory</th>
+            <th className="text-start">Completed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>English</td><td>English</td><td>English</td><td>Yes</td>
+          </tr>
+          <tr>
+           <td>English</td><td>English</td><td>Spanish</td><td>No</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
     </main>
   );
 }
