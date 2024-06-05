@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <div className="w-full border-8 border-sky-500">
       <GoogleAdsense pId="5219047397037032" />
+      </div>
       <body className={inter.className}>{children}</body>
       
     </html>
