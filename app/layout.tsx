@@ -17,8 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
       <GoogleAdsense pId="5219047397037032" />
+      <body className={inter.className}>{children}</body>
+      
     </html>
   );
 }

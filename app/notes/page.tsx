@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Notes() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
        <h1>Language Adventure</h1>
       
@@ -12,7 +12,7 @@ export default function Notes() {
         <li>This is the url a user would open</li>
         <li>There is no editing functionality here. That will be another project. Probably doesnt need hosting.</li>
         <li>TODO</li>
-        
+
         <li>Add shadcn</li>
         <li>Add react query</li>
         <li className="text-decoration-line: line-through">Add Auth? next auth? auth0 or clerk?</li>
